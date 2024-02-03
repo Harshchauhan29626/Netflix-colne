@@ -368,3 +368,9 @@ footer .footer-questions {
 }
 
 
+.copy h2{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
