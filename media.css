@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1000px) {
+    .txt> :first-child {
+        font-size: 32px;
+    }
+
+    .txt> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .txt> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .eng-btn-01 {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .sig-btn-02 {
+        padding: 8px 14px;
+        margin-left: 13px;
+        font-size: 14.5px;
+    }
+
+    .start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .first-section-01 {
+        flex-wrap: wrap;
+    }
+
+    .first-section-02 {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .first-section-03 {
+        flex-wrap: wrap;
+    }
+
+    .section-01-img img {
+        width: 305px;
+    }
+
+    .section-01-img video {
+        width: 263px;
+    }
+
+    .section-03-img img {
+        width: 305px;
+    }
+
+    .section-03-img video {
+        width: 194px;
+        right: 60px;
+        top: 18px;
+    }
+
+    section .section-01-text :first-child {
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    section .section-01-text :nth-child(2) {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    section .section-03-text :first-child {
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    section .section-03-text :nth-child(2) {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .main nav span img {
+        width: 100px;
+    }
+
+    .ans p {
+        font-size: 18px;
+    }
+
+    .section-04-text {
+        font-size: 30px;
+    }
+
+    .questions {
+        font-size: 18px;
+    }
+
+    footer{
+        max-width: 93vw;
+        margin: auto;
+        justify-content: space-evenly;
+        padding: 34px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .footer a {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+}
+
+.txt {
+
+    height: 80%;
+}

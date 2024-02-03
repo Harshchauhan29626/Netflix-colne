@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+
+}
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1250px, 100vw);
+    height: 640px;
+    position: relative;
+}
+
+.main .box {
+    position: absolute;
+    height: 640px;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+}
+
+nav {
+    max-width: 82vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 150px;
+    position: relative;
+    z-index: 3;
+}
+
+nav button {
+    position: relative;
+    z-index: 3;
+}
+
+.txt {
+    height: calc(100% - 100px);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 25px;
+    padding: 0 30px;
+}
+
+.txt> :first-child {
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+
+.txt> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.txt> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.lan-sig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.eng-btn-01 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding: 7px 12px;
+    background-color: transparent;
+    border: none solid rgb(195, 183, 162);
+    position: relative;
+    z-index: 3;
+    border-radius: 3.5px;
+}
+
+
+.sig-btn-02 {
+    font-size: 15.8px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 3.5px;
+    border: none;
+    margin-left: 19px;
+}
+
+.input-03 {
+    padding: 18px 140px 18px 29px;
+    line-height: 1.5;
+    font-size: 1rem;
+    background: transparent;
+    border: 0.1rem solid whitesmoke;
+    opacity: 1;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.get-btn-04 {
+
+    padding: 18px 40px 20px 28px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 3px;
+}
+
+.lani {
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    bottom: -1.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.first-section-01 {
+    margin: 0;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80vw;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.section-01-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-01-img {
+    position: relative;
+}
+
+.section-01-img img {
+    width: 555px;
+    position: relative;
+    z-index: 3;
+}
+
+.section-01-img video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 480px;
+}
+
+section .section-01-text :first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+section .section-01-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.first-section-02 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 83.9vw;
+    color: #FFFFFF;
+    margin: auto;
+    gap: 20px;
+}
+
+.first-section-03 {
+    margin: 0;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80vw;
+    color: #FFFFFF;
+    margin: auto;
+    position: relative;
+}
+
+.section-03-img {
+    position: relative;
+}
+
+.section-03-img img {
+    width: 555px;
+    position: relative;
+    z-index: 3;
+}
+
+.section-03-img video {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    width: 363px;
+}
+
+.first-section-04 {
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+
+.section-04-text {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    z-index: 3;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+
+.first-section-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 5rem 13% 2.5rem;
+    min-height: 100vh;
+    /* width: 100vw; */
+
+}
+
+.questions {
+    background-color: rgb(45, 45, 45);
+    padding: 23px;
+    font-size: 24px;
+    font-weight: 400;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.faq i {
+    transition: all .3s ease-in-out;
+}
+
+.faq.active i {
+    transform: rotate(45deg);
+}
+
+.ans {
+    max-height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.faq.active .ans {
+    max-height: 300px;
+}
+
+.faq-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ans p {
+    background-color: rgb(45, 45, 45);
+    padding: 23px;
+    font-size: 24px;
+    font-weight: 400;
+    border-top: 1px solid #000000;
+}
+
+.section-04-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-04-start span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer{
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 34px;
+}
+
+footer .footer-questions {
+    padding: 34px 0;
+    color:rgba(255, 255, 255, 0.7);
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:rgba(255, 255, 255, 0.7);
+    
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a{
+    text-decoration: underline;
+    font-size: 15px;
+    /* color:rgba(255, 255, 255, 0.7); */
+}
+
+
